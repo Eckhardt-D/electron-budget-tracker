@@ -1,22 +1,33 @@
-# kaizen-budget
+# Budget application todo list
 
-> A budget application for the web.
+- [ ] Build UI [Mobile first]
+    - [ ] Build bottom nav for mobile.
+    - [ ] Side Nav for larger.
+    - [ ] Home route with expenditure and income totals.
+    - [ ] Section for special prediction component on home route.
+    - [ ] Monthly page with transaction-level data.
+    - [ ] Category filters on Monthly Page.
+## UI Stretch
+- [ ] Create graphs and charts
+- [ ] Send notifications when leaving home
 
-## Build Setup
+# Firebase implementation
+- [ ] Create two firebase instances [dev and production]
+    - [ ] Set environment variables for instances
+    - [ ] Seed data into dev mode
+    - [ ] Create live dev URL
+    - [ ] Create service workers
+    - [ ] Implement add to home screen
 
-``` bash
-# install dependencies
-$ npm install
+- [ ] Firebase auth (Email link)
+- [ ] Firestore -> Vuex Store
+- [ ] Design data
+    - [ ] Users
+    - [ ] Budget goals
+    - [ ] Income and expenses
+    - [ ] Categories per income/expense
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Stretch for Firebase
+- [ ] Implement GEOLOCATION
+- [ ] Set home location
+- [ ] Send notification when leaving vicinity
