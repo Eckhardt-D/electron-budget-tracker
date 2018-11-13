@@ -26,6 +26,7 @@
     - [ ] Budget goals
     - [ ] Income and expenses
     - [ ] Categories per income/expense
+- [ ] CRUD operations on transaction level
 
 ## Stretch for Firebase
 - [ ] Implement GEOLOCATION
